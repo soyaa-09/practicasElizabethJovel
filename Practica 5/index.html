@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil personal</title>
+</head>
+<body>
+    
+<h1>Registro de perfil personal</h1>
+<form>
+
+    <p>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required>
+        </p>
+        
+        <p>
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" name="edad" min="0" max="120" required>
+        </p>
+        
+        <p>
+            <label for="fechaNacimiento">Fecha de nacimiento:</label><br>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+        </p>
+        <p>
+            <label for="colorFavorito">Color favorito:</label><br>
+            <input type="color" id="colorFavorito" name="colorFavorito" value=" #FFC5D3">
+        </p>
+        
+        <p>
+            <label for="comidaFavorita">Comida favorita:</label><br>
+            <input type="text" id="comidaFavorita" name="comidaFavorita" required>
+        </p>
+        
+        <p>
+            <label for="hobbieFavorito">Hobbie favorito:</label><br>
+            <input type="text" id="hobbieFavorito" name="hobbieFavorito" required>
+        </p>
+        
+        <p>
+            <label>Mascotas:</label><br>
+            <input type="checkbox" id="gatos" name="gatos">
+            <label for="gatos">Tengo gatos</label><br>
+            <input type="checkbox" id="perros" name="perros">
+            <label for="perros">Tengo perros</label>
+        </p>
+        
+        <p>
+            <button type="submit">Guardar Perfil</button>
+        </p>
+    </form>
+
+</form>
+
+</body>
+</html>
