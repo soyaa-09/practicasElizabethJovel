@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de viajes</title>
+</head>
+<br>
+    <h1>Pagina de reserva de viajes</h1>
+<form>
+<fieldset>
+<legend>Datos personales</legend>
+<p>
+    <label>Nombre:</label>
+    <input type="text" name="nombre">
+</p>
+<p>
+    <label>Correo electronico</label><br>
+    <input type="email" name="correo" placeholder="exampleQemail.com">
+</p>
+<p>
+    <label>Telefono:</label>
+    <input type="tel" name="telefono">
+</p>
+<p>
+    <label>Numero de acompañantes:</labelmero>
+    <input type="number" name="acompañante" step="1" min="1" max="3">
+</p>
+</fieldset>
+<br>
+<fieldset>
+<legend>Datos del viaje</legend>
+ 
+<p>
+     <label>Lugar de origen:</labelmero>
+    <input type="text" name="origen" value="San Salvador" readonly>
+ 
+</p>
+ 
+<p>
+<label>Lugar de destino:</label><br>
+<select name="destino">
+<option value="Gam">Seoul, Corea</option>
+<option value="florencia">Singgapur</option>
+<option value="Barcelona">Toki, Japon</option>
+<option value="venecia">Gamnan, Seoul</option>
+</select>
+</p>
+ 
+ 
+</fieldset>
+ 
+</form>
