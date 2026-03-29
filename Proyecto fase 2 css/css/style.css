@@ -1,0 +1,190 @@
+/* IMPORTACIÓN DE FUENTES (Google Fonts)*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Special+Elite&display=swap');
+ 
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+/* ESTILOS GENERALES */
+body {
+  font-family: 'Inter', sans-serif;
+  background-image: url(../img/img/Pink\ aura\ wallpaper.jpg);
+  background-size: contain;
+  color: #4e103c;
+  line-height: 1.6;
+}
+ 
+/* HEADER Y NAVEGACIÓN */
+header {
+  background-color: #fc83abfa;
+  color: #ffffff;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+ 
+/* TÍTULO */
+.titulo {
+  font-family: 'Special Elite', cursive;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  max-height: max-content;
+  font-size: 1.4rem;
+}
+ 
+/* MENÚ */
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  font-size: 0.9rem;
+}
+ 
+/* LINKS */
+.link {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+ 
+.link:hover {
+  background-color: #973dc0;
+}
+ 
+/* MAIN */
+main {
+  width: 85%;
+  max-width: 1200px;
+  margin: auto;
+}
+ 
+/* SECCIONES */
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #ffffffd5;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+ 
+/* IDS */
+#s1, #s2, #s3, #s4, #s5 {
+  margin-bottom: 15px;
+  color: #92007a;
+  text-align: center;
+}
+ 
+/* IMAGEN */
+.imgpeq {
+  border: solid white 8px;
+  margin: 35px 0;
+  float: right;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+ 
+/* LISTAS */
+ul, ol {
+  margin-left: 20px;
+}
+ 
+li {
+  margin-bottom: 8px;
+}
+ 
+/* TABLA */
+.ficha table {
+  width: 100%;
+  border-collapse: collapse;
+}
+ 
+.ficha th, .ficha td {
+  border: 1px solid #747474;
+  padding: 10px;
+}
+ 
+.ficha th {
+  background-color: #e21a67;
+  color: white;
+}
+ 
+/* FORMULARIO */
+.centrado {
+  text-align: center;
+}
+ 
+form {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+ 
+input {
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+ 
+/* BOTÓN */
+input[type="submit"] {
+  background-color: #c00792;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+ 
+input[type="submit"]:hover {
+  background-color: #4b3d0c;
+}
+ 
+/* GALERÍA */
+.galeria {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+ 
+.contenedor-galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+ 
+/* 🔥 ESTE ERA EL ERROR CLAVE */
+.galeria img {
+  width: 30%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+ 
+.galeria img:hover {
+  transform: scale(1.1);
+}
+ 
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: white;
+  margin-top: 40px;
+}
+ 
